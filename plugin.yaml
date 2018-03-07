@@ -1,0 +1,7 @@
+name: "lintr"
+version: "0.1.0"
+usage: "runs a series of tests to verify that a Helm chart is well-formed"
+description: "Runs a series of tests to verify that a Helm chart is well-formed."
+command: "$HELM_PLUGIN_DIR/bin/helm-lintr"
+hooks:
+  install: "$HELM_PLUGIN_DIR/build.sh"
