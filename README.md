@@ -14,8 +14,10 @@ If the linter encounters things that will cause the chart to fail installation, 
 emit [WARNING] messages.
 
 ```
-$ helm lintr [flags] CHART
+$ helm lintr [FLAGS] [OPTIONS] <PATH>
 ```
+
+See `helm lintr -h` for more options.
 
 ## Install
 
